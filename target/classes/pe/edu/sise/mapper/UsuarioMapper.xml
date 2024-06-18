@@ -1,0 +1,20 @@
+<!DOCTYPE mapper
+PUBLIC "-//mybatisorg.//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+
+<mapper namespace="UsuarioMapper">
+    
+    <insert id="guardarUsuario" parameterType="Usuario">
+        INSERT INTO Usuario VALUES(null,#{nombreUsuario},#{clave},#{nombreCompleto},#{email},#{fechaRegistro})
+        
+    </insert>
+    
+    <select id="listarUsuario" resultType="Usuario">
+        SELECT * FROM Usuario
+        
+    </select>
+    
+</mapper>
+

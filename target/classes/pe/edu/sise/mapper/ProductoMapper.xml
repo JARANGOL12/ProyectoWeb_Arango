@@ -1,0 +1,19 @@
+<!DOCTYPE mapper
+PUBLIC "-//mybatisorg.//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="ProductoMapper">
+    <insert id="guardarProducto" parameterType="Producto">
+        INSERT INTO Producto VALUES(null,#{provedor,codigo},#{nombre},#{modelo},#{precio},#{stock},#{descripcion},#{fechaLanzamiento})
+        
+    </insert>
+    <resultMap id="ProductoMap"type="Producto">
+        <association column="CodigoProveedor" property="proveedor" javaType="Proveedor" select="ProveedorMapper.buscarProveedor"></association>
+    </resultMap>
+        
+    <select id="listarProducto" resultMap="ProductoMap">
+        SELECT * FROM Producto
+        
+    </select>
+</mapper>

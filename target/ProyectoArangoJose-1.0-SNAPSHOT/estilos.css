@@ -1,0 +1,204 @@
+body{
+    background: #b1eaef;
+    color: white;
+    margin: 0;
+}
+
+.principal{
+   margin: 0 auto;
+   width: 900px;
+   border: 1px solid black;
+}
+
+.encabezado{
+    background-image: url('encabezado.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 94px;
+}
+
+.menu{
+    float: left;
+    width: 180px;
+    height: 600px;
+    background: #0096d5;
+}
+
+.contenido{
+    margin-left: 180px;
+    height: 600px;
+    overflow: auto;
+    background: #00a8ee;
+}
+
+.listas{
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 150px;
+}
+
+.listas a{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    padding: 14px 0px;
+    border-bottom: 1px solid #00a8ee;
+    border-top: 1px solid #00a8ee;
+    background: #0096d5;
+    transition: all 0.5s ease-in-out;
+}
+
+.listas a:hover{
+    background: #009ed6;
+}
+
+.contenedor{
+    padding: 8px;
+}
+
+.titulo{
+    font-size: 30px;
+    margin: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.texto{
+    font-size: 18px;
+    margin: 8px;
+}
+
+.tablaDatos{
+    margin: 20px auto;
+    min-width: 500px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: black;
+}
+
+.tablaDatos th{
+    background: #aeeef1;
+    border: 1px solid black;
+}
+
+.tablaDatos td{
+    border: 1px solid black;
+    background: #e6fbfc;
+}
+
+.tablaFrm{
+    margin: 20px auto;
+    width: 450px;
+    border: 1px solid black;
+    border-radius: 10px 10px 0 0;
+    background: #e6fbfc;
+    padding: 10px;
+    color: black;
+}
+
+.tablaFrm td:nth-child(1){
+    text-align: right;
+}
+.tablaFrm td{
+    padding: 5px;
+}
+.tablaFrm input[type="text"]{
+    background: #f3fbfc;
+    padding: 6px;
+}
+.tablaFrm input[type="submit"]{
+    padding: 8px;
+    font-weight: bold;
+    background: #2481e4;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+.tablaFrm input[type="submit"]:hover{
+    background: #00a8ee;
+}
+.formato{
+    width: 400px;
+    max-width: 100%;
+    min-height: 380px;
+    background-color: cornflowerblue;
+    padding: 28px;
+margin-left: 100px;
+    border-radius: 30px;
+  border: 1px solid black;
+  background: rgb(1,1,0.5);
+  box-shadow: inset -3px  3px 3px;
+  position: relative;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.formato label{
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+}
+
+.formato button{
+    width: 60%;
+    background: #1f53c5;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    color: white;
+    margin:16px 0;
+    font-size: 16px;
+    margin-top: 60px;
+    cursor: pointer;
+    margin-left: 90px;
+}
+.formato input{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width:60%;
+    margin-left: 80px;
+    background: #24303c;
+    padding: 0 10px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri', sans-serif;
+    font-size: 18px;
+    color:white;
+}
+.formato select{
+   display: flex;
+    flex-wrap: wrap-reverse;
+    width:60%;
+    margin-left: 80px;
+    background: #24303c;
+    padding: 0 10px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri', sans-serif;
+    font-size: 18px;
+    color:white;
+
+} 
+.formato label{
+    text-align: center;
+    font-size: 18px;
+    margin-left: 70px;
+   
+}
+h1{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 6px;
+    color: white;
+    text-shadow :2px 2px 2px rgb(138,201,45);
+}
+
+

@@ -1,0 +1,20 @@
+<!DOCTYPE mapper
+PUBLIC "-//mybatisorg.//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+
+<mapper namespace="ProveedorMapper">
+    
+    <insert id="guardarProveedor" parameterType="Proveedor">
+        INSERT INTO proveedor VALUES (null, #{nombre}, #{telefono},#{email},#{direccion},#{region},#{ciudad},#{pais})
+    </insert>
+    <select id="listarProveedor" resultType="Proveedor">
+        SELECT * FROM proveedor
+    </select>
+    <select id="buscarProveedor" resultType="Proveedor" parameterType="int">
+        SELECT * FROM Proveedor WHERE Codigo = #{codigoProveedor}
+        
+    </select>
+    
+</mapper>

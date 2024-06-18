@@ -1,0 +1,12 @@
+pe\edu\sise\servlet\UsuarioServlet.class
+pe\edu\sise\dao\ProveedorDAO.class
+pe\edu\sise\servlet\ProductoServlet.class
+pe\edu\sise\entity\Producto.class
+pe\edu\sise\entity\Proveedor.class
+pe\edu\sise\dao\UsuarioDAO.class
+pe\edu\sise\servlet\ProveedorServlet.class
+pe\edu\sise\dao\ProductoDAO.class
+pe\edu\sise\util\Conexion.class
+pe\edu\sise\proyectoarangojose\resources\JakartaEE8Resource.class
+pe\edu\sise\proyectoarangojose\JakartaRestConfiguration.class
+pe\edu\sise\entity\Usuario.class
